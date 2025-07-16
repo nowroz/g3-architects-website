@@ -46,6 +46,17 @@
   display: flex;
 }
 
+/* button styles */
+.btn-primary {
+  background-color: #FF900E;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 1.2rem 1.5rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
 /* header styles */
 header {
   padding: 3rem 0;
@@ -72,4 +83,30 @@ header {
   text-decoration: none;
   font-size: 1.1rem;
   font-weight: 500;
+}
+
+/* banner styles */
+.banner {
+  /* text-align: center; */
+}
+
+.banner-content {
+  max-width: 54rem;
+  /* border: 1px solid; */
+  text-align: center;
+  margin: 6.3rem auto 3.1rem;
+}
+
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.banner-desc {
+  margin-bottom: 2rem;
+}
+
+.banner-img {
+  max-width: 100%;
 }
