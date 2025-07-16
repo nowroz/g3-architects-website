@@ -11,9 +11,9 @@
 
 /* CSS Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* max-container */
@@ -22,7 +22,54 @@
   margin: 0 auto;
 }
 
-h1 {
-  background-color: beige;
-  border: 1px solid;
+/* shared styles */
+/* text color */
+.text-color-primary {
+  color: #131313;
+}
+
+.text-color-secondary {
+  color: #424242;
+}
+
+.text-color-tertiary {
+  color: #727272;
+}
+
+/* background color */
+.bg-color {
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* display-flex */
+.display-flex {
+  display: flex;
+}
+
+/* header styles */
+header {
+  padding: 3rem 0;
+}
+
+/* navbar styles */
+.navbar {
+  justify-content: space-between;
+}
+
+.brand-title {
+  font-size: 2.8rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style-type: none;
+  gap: 4rem;
+  align-items: center;
+}
+
+.nav-link,
+.nav-link:visited {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
 }
