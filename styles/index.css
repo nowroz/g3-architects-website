@@ -204,7 +204,8 @@ header {
   }
 
   .banner-content,
-  .teams {
+  .teams,
+  .some-facts {
     margin: 2rem auto;
     padding: 1rem;
   }
@@ -216,27 +217,46 @@ header {
   .teams-img-collage,
   .our-features {
     max-width: none;
+  }
+
+  .facts-card-container {
+    grid-template-columns: 1fr;
+  }
+
+  .facts-card {
+    margin-top: 2.5rem;
   }
 }
 
 /* medium sized devices */
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .teams {
-    flex-direction: column;
-  }
-
+  .navbar,
   .banner-content,
-  .teams {
+  .teams,
+  .some-facts {
     margin: 2rem auto;
     padding: 1rem;
   }
 
+  .nav-links {
+    gap: 1rem;
+  }
+
   .teams {
+    flex-direction: column;
     gap: 1rem;
   }
 
   .teams-img-collage,
   .our-features {
     max-width: none;
+  }
+
+  .facts-card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .facts-card {
+    margin-top: 2.5rem;
   }
 }
