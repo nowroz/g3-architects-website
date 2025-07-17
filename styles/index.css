@@ -67,11 +67,16 @@ main > section {
   border-radius: 0.5rem;
 }
 
-/* shared title styles */
+/* shared section styles */
 .section-title {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 1.5rem;
+}
+
+.section-desc {
+  max-width: 34rem;
+  line-height: 1.625rem;
 }
 
 /* header styles */
@@ -187,6 +192,25 @@ header {
 .facts-info {
   font-size: 1.25rem;
   font-weight: 600;
+}
+
+/* sponsors section styles */
+.sponsors {
+  text-align: center;
+}
+
+#sponsors-desc {
+  margin: 1.5rem auto 3.125rem;
+}
+
+.sponsors-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+.sponsor-img {
+  filter: grayscale(100%);
 }
 
 /* Responsive media query */
