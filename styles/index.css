@@ -229,7 +229,8 @@ header {
 
   .banner-content,
   .teams,
-  .some-facts {
+  .some-facts,
+  .sponsors {
     margin: 2rem auto;
     padding: 1rem;
   }
@@ -243,12 +244,17 @@ header {
     max-width: none;
   }
 
-  .facts-card-container {
+  .facts-card-container,
+  .sponsors-grid {
     grid-template-columns: 1fr;
   }
 
   .facts-card {
     margin-top: 2.5rem;
+  }
+
+  .sponsors-grid {
+    gap: 2.5rem;
   }
 }
 
@@ -257,7 +263,8 @@ header {
   .navbar,
   .banner-content,
   .teams,
-  .some-facts {
+  .some-facts,
+  .sponsors {
     margin: 2rem auto;
     padding: 1rem;
   }
@@ -282,5 +289,10 @@ header {
 
   .facts-card {
     margin-top: 2.5rem;
+  }
+
+  .sponsors-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
   }
 }
