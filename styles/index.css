@@ -213,6 +213,73 @@ header {
   filter: grayscale(100%);
 }
 
+/* lovable-features section styles */
+.lovable-features {
+  justify-content: space-between;
+}
+
+.lovable-features-left-column {
+  max-width: 50%;
+  padding: 2.375rem;
+}
+
+#lovable-features-title {
+  border-left: 5px solid #FF900E;
+  padding-left: 1.3125rem;
+}
+
+#lovable-features-desc {
+  max-width: 37rem;
+  line-height: 1.625rem;
+  margin: 1.5rem 0 1.875rem;
+}
+
+.lovable-feature-card {
+  padding: 1.875rem;
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+  margin-bottom: 1.25rem;
+}
+
+.lovable-feature-card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.625rem;
+}
+
+.lovable-feature-card-desc {
+  max-width: 32.125rem;
+  line-height: 1.625rem;
+}
+
+.lovable-features-right-column {
+  max-width: 50%;
+}
+
+#lovable-features-img {
+  max-width: 100%;
+}
+
+#experience-badge {
+  display: inline-block;
+  margin-left: -92px;
+  margin-top: -77px;
+  background-color: #FF900E;
+  color: white;
+  border-radius: 0.5rem;
+  padding: 2.875rem 2.625rem;
+  text-align: center;
+  font-size: 1.5625rem;
+  font-weight: 500;
+}
+
+#experience-year {
+  font-size: 4.1rem;
+  font-weight: bold;
+}
+
+
 /* Responsive media query */
 /* small sized devices */
 @media screen and (max-width: 576px) {
