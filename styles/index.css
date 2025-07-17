@@ -312,7 +312,8 @@ header {
   .teams,
   .some-facts,
   .sponsors,
-  .lovable-features {
+  .lovable-features,
+  .footer {
     margin: 2rem auto;
     padding: 1rem;
   }
@@ -362,7 +363,8 @@ header {
   .teams,
   .some-facts,
   .sponsors,
-  .lovable-features {
+  .lovable-features,
+  .footer {
     margin: 2rem auto;
     padding: 1rem;
   }
